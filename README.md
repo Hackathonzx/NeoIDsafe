@@ -1,6 +1,6 @@
-# Project Name: IDSafe
+# Project Name: NeoIDSafe
 # Overview
-IDSafe is a blockchain-based identity verification system designed for refugees. It uses decentralized identifiers (DIDs) and Chainlink's Cross-Chain Interoperability Protocol (CCIP) to manage identity verification across different blockchains. The system ensures that refugees can access essential services like healthcare, education, and financial assistance through verified digital credentials.
+NeoIDSafe is a blockchain-based identity verification system designed for refugees. It uses decentralized identifiers (DIDs) and Chainlink's Cross-Chain Interoperability Protocol (CCIP) to manage identity verification across different blockchains. The system ensures that refugees can access essential services like healthcare, education, and financial assistance through verified digital credentials.
 
 # Features
 - Decentralized Identity Management: Each refugee is assigned a unique Decentralized Identifier (DID) to manage their identity securely.
@@ -23,13 +23,13 @@ In this project, Chainlink's Cross-Chain Interoperability Protocol (CCIP) is use
 Network: This contract is deployed on the Neo X Testnet
 
 # Contract Addresses:
-- DIDRegistry: [0x41CD3d7753eeAD4c2d384a6C0074eA4c27dE36F1]
-- VerificationOracle: [0xf1979Ac32D086D1f3f3773fe0828d37729ed545f]
-- CredentialNFT: [0x1d8c981FD95060A45b3Cea346DbF7b5b48f5CD36]
+- DIDRegistry deployed to: 0x41CD3d7753eeAD4c2d384a6C0074eA4c27dE36F1
+- CredentialNFT deployed to: 0x1d8c981FD95060A45b3Cea346DbF7b5b48f5CD36
+- VerificationOracle deployed to: 0xf1979Ac32D086D1f3f3773fe0828d37729ed545f
 
 # Setup and Installation
-Clone the Repository:  git clone https://github.com/yourusername/idsafe.git
-cd <project-repo-directory>
+Clone the Repository:  git clone https://github.com/Hackathonzx/NeoIDSafe.git
+cd NeoIDSafe
 
 # Dependencies and Installation
 # Dependencies:
@@ -53,7 +53,7 @@ npm install @chainlink/ccip
 - Install the dependencies: npm install
 - Compile the smart contracts: npx hardhat compile
 - Run tests: npx hardhat test
-- Deploy the contract: npx hardhat run ignition/modules/deploy.js --network <network-name>
+- Deploy the contract: npx hardhat run ignition/modules/deploy.js --network neoXTestnet
 
 # Usage
 - Issuing Credentials:
